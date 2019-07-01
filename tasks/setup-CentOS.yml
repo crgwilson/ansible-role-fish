@@ -1,0 +1,7 @@
+---
+- name: Add fish yum repository
+  command: "yum-config-manager --add-repo={{ fish_package_repository }}"
+  args:
+    creates: "/etc/yum.repos.d/{{ fish_package_repo_file }}"
+  notify:
+    - yum update

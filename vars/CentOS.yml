@@ -1,0 +1,6 @@
+---
+fish_package_repository_release: 2
+fish_package_distro: "{{ ansible_distribution }}_{{ ansible_distribution_major_version }}"
+fish_package_repo_file: "shells:fish:release:{{ fish_package_repository_release }}.repo"
+fish_package_repository_path: "{{ fish_package_distro }}/{{ fish_package_repo_file }}"
+fish_package_repository: "{{ fish_package_repository_base }}{{ fish_package_repository_path }}"
