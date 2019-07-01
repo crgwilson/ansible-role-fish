@@ -4,5 +4,3 @@ yamllint
 ansible-lint
 molecule
 docker-py
-flake8
-yamllint
