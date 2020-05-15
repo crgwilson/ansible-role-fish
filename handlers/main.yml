@@ -3,6 +3,6 @@
   apt:
     update_cache: true
 
-- name: yum update
-  yum:
+- name: dnf update
+  dnf:
     update_cache: true

@@ -1,5 +1,6 @@
 ---
 fish_package_repository_release: 3
-fish_package_distro: "{{ ansible_distribution }}_{{ ansible_distribution_major_version }}.0"
-fish_package_repository: "{{ fish_package_repository_base }}{{ fish_package_repository_release }}/{{ fish_package_distro }}/"
-fish_package_repository_key: "{{ fish_package_repository }}/Release.key"
+# Hey fish maintainers, how come the stretch repo is `9.0` and the buster repo is just `10`?
+fish_package_distro: "{{ ansible_distribution }}_{{ fish_distro_repo_version }}"
+fish_package_repository: "http://{{ fish_package_repository_base }}{{ fish_package_repository_release }}/{{ fish_package_distro }}/"
+fish_package_repository_key: "https://{{ fish_package_repository_base }}{{ fish_package_repository_release }}/{{ fish_package_distro }}/Release.key"

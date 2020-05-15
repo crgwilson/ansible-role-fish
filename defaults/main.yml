@@ -1,4 +1,4 @@
 ---
-fish_package_repository_base: http://download.opensuse.org/repositories/shells:/fish:/release:/
+fish_package_repository_base: 'download.opensuse.org/repositories/shells:/fish:/release:/'
 fish_packages:
   - fish
