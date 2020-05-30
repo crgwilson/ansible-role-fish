@@ -1,5 +1,7 @@
 # Ansible role: Fish
 
+![Molecule Test](https://github.com/crgwilson/ansible-role-fish/workflows/Molecule%20Test/badge.svg)
+
 Install [fish shell](https://fishshell.com/)
 
 * Install fish via package manager
