@@ -1,7 +1,7 @@
 ---
 - name: Install gpg
   apt:
-    name: gpg
+    name: gnupg
     state: present
 
 - name: Add fish apt key
