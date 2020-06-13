@@ -1,6 +1,11 @@
 ---
 name: Molecule Test
-on: [push, pull_request]
+on:
+  push: ~
+  pull_request: ~
+  schedule:
+    - cron: '30 11 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
