@@ -6,7 +6,6 @@
 *.exe
 *.o
 *.so
-*.pyc
 
 # Packages #
 ############
@@ -20,7 +19,6 @@
 *.rar
 *.tar
 *.zip
-*.box
 
 # Other stuff #
 ###############
@@ -28,6 +26,5 @@
 .vagrant/
 *.retry
 *.swp
-.idea/*
-
+.python-version
 __pycache__
