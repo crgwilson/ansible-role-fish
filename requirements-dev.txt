@@ -1,0 +1,6 @@
+molecule~=3.0.8
+testinfra
+docker-py
+ansible-lint
+flake8
+yamllint
